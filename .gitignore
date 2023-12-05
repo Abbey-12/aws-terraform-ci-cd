@@ -3,7 +3,7 @@ terraform.tfstate
 terraform.tfstate.backup
 
 # Ignore Ansible logs
-ansible/*.log
+
 
 # Ignore temporary files
 *.tmp
