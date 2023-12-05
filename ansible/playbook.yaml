@@ -1,0 +1,8 @@
+---
+- name: Infrastructure Setup
+  hosts: all
+  become: true
+
+  roles:
+    - common
+    - backend_setup
