@@ -1,0 +1,13 @@
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore Ansible logs
+ansible/*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore directories created during Terraform apply
+.terraform/
+ansible/__pycache__/
